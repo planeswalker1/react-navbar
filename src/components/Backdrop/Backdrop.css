@@ -1,0 +1,15 @@
+/* what should a backdrop be
+a backdrop should
+
+take the full page width and height
+should have a background color
+should overlap the other elements but of course not the sidedrawer */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
