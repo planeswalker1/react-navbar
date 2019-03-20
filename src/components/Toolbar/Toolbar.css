@@ -48,3 +48,19 @@
   text-decoration: none;
   font-size: 1.5em;
 }
+
+@media only screen and (max-width: 768px) {
+  .toolbar__navigation-items {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+
+  .toolbar__logo {
+    margin-left: 0;
+  }
+}
